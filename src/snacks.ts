@@ -14,4 +14,5 @@ export function print_name(list: snack_array){
 
 const snacks = new snack_array;
 
+
 print_name(snacks);
