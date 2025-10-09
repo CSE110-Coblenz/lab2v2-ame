@@ -6,7 +6,7 @@ const snack_list = new snack_array;
 print_name(snack_list);
 
 function main() {
-    console.log('--- Running Main Program ---');
+    console.log();
     printMusic();
 }
 
