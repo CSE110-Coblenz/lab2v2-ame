@@ -1,4 +1,4 @@
-class snack_array{
+export class snack_array{
     snacks: string[];
 
     constructor(){
@@ -8,7 +8,7 @@ class snack_array{
     }
 }
 
-function print_name(list: snack_array){
+export function print_name(list: snack_array){
     console.log(list);
 }
 
