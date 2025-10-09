@@ -1,4 +1,4 @@
-class decor_array{
+export class decor_array{
     decor: string[];
 
     constructor(){
@@ -6,7 +6,7 @@ class decor_array{
     }
 }
 
-function print_name(list: decor_array){
+export function print_name(list: decor_array){
     console.log(list);
 }
 
