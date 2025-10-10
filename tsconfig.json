@@ -2,7 +2,7 @@
 "compilerOptions": {
    "target": "es2020",
    "module": "commonjs",
-   "types": ["vitest/globals"],
+   "types": ["vitest"],
    "strict": true,
    "esModuleInterop": true,
    "skipLibCheck": true
