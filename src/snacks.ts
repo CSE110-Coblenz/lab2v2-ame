@@ -3,7 +3,8 @@ export class snack_array{
 
     constructor(){
         this.snacks = ['chips', 'juice', 'blackberries',
-            'ice cream', 'cookies', 'brownies', 'popcorn'
+            'candy', 'popcorn', 'gummies',
+            'cookies', 'brownies', 'popcorn'
         ]
     }
 }
