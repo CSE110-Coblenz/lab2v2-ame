@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CSE110-Coblenz/lab2v2-ame/issues"
   },
-  "homepage": "https://github.com/CSE110-Coblenz/lab2v2-ame#readme"
+  "homepage": "https://github.com/CSE110-Coblenz/lab2v2-ame#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
