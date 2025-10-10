@@ -1,6 +1,6 @@
 
 import { displayFeatureAnimation } from "./animation";
-import { print_name, snack_array } from "./snacks";
+import { print_name, snack_list } from "./snacks";
 import { printMusic } from './music';
 
 function main() {
@@ -11,4 +11,5 @@ function main() {
 main();
 
 displayFeatureAnimation('snacks');
-print_name(snack_list);
+const snackp = new snack_list;
+print_name(snackp);
