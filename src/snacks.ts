@@ -20,4 +20,4 @@ print_name(snack);
 export const snacks = ['chips', 'juice', 'blackberries',
             'candy', 'popcorn', 'gummies',
             'cookies', 'brownies', 'popcorn'
-        ]
+        ];
