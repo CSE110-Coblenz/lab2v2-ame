@@ -1,4 +1,4 @@
-export class snack_array{
+export class snack_list{
     snacks: string[];
 
     constructor(){
@@ -9,11 +9,15 @@ export class snack_array{
     }
 }
 
-export function print_name(list: snack_array){
+export function print_name(list: snack_list){
     console.log(list);
 }
 
-const snacks = new snack_array;
+export const snack = new snack_list;
 
+print_name(snack);
 
-print_name(snacks);
+export const snacks = ['chips', 'juice', 'blackberries',
+            'candy', 'popcorn', 'gummies',
+            'cookies', 'brownies', 'popcorn'
+        ];
